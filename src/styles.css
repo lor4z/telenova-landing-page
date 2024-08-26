@@ -67,13 +67,14 @@ ul a {
 .banner-informations {
     position: relative; 
     color: white;
-    
+
 }
 
 #fundo-banner-man {
     width: 100%;
     height: auto;
     margin-top: -25%;
+    
 }
 
 .banner-informations ul {
@@ -88,14 +89,34 @@ ul a {
 
 }
 .banner-informations .highlight-text {
-    margin-top: -90%;
+    position: absolute;
+    margin-top: -100%;
     font-size: 45px; 
     font-weight: bold;
-    margin-left: 80px;
+    margin-left: -1000px;
 }
 
 .banner-informations .sub-text {
-    margin-top: -50%;
+    position: absolute;
+    margin-top: -70%;
     font-size: 18px;
     line-height: 1.5;
+    margin-left: -1050px;
+
+}
+
+#scroll-png{
+    position: absolute;
+    bottom: 50%;
+    left: 97%;
+    transform: translateX(-50%);
+    z-index: 4;
+
+}
+
+#esfera-cromada{
+    position: absolute;
+    bottom: 10%;
+    left: 5%;
+    z-index: 4;
 }
