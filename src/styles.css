@@ -116,7 +116,29 @@ ul a {
 
 #esfera-cromada{
     position: absolute;
-    bottom: 10%;
+    bottom: 6%;
     left: 5%;
     z-index: 4;
+}
+#traço-verde1,
+#traço-verde2,
+#traço-verde3 {
+    position: absolute;
+    width: 600px;
+    z-index: 3;
+}
+
+#traço-verde1 {
+    top: 10%; /* Posição específica para traço 1 */
+    left: 50%; /* Posição específica para traço 1 */
+}
+
+#traço-verde2 {
+    top: 30%; /* Posição específica para traço 2 */
+    left: 60%; /* Posição específica para traço 2 */
+}
+
+#traço-verde3 {
+    top: 40%; /* Posição específica para traço 3 */
+    left: 70%; /* Posição específica para traço 3 */
 }
