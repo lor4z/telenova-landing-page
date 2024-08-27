@@ -128,30 +128,44 @@ ul a {
     z-index: 3;
 }
 
-#traço-verde1 {
-    top: 10%; /* Posição específica para traço 1 */
-    left: 10%; /* Posição específica para traço 1 */
-}
-
 #traço-verde2 {
     width: 900px;
-    top: 25%; /* Posição específica para traço 2 */
+    top: 67%; /* Posição específica para traço 2 */
     left: -1%; /* Posição específica para traço 2 */
 }
 
 #traço-verde3 {
     width: 950px;
-    top: 42%; /* Posição específica para traço 3 */
+    top: 41%; /* Posição específica para traço 3 */
     left: 25%; /* Posição específica para traço 3 */
 }
 #telefone-ip{
     position: absolute;
-
     left: 75%;
     top: 63%;
 }
+
 .sub-text-telefone{
+    position: absolute;
+    top: 80%;
+    left: 1450px;
     color: black;
-    left: 500%;
-    top: 100%;
+    z-index: 2;
+}
+#barra-azul{
+    position: absolute;
+    width: 100%;
+    top: 146%;
+    z-index: 1;
+}
+.text-banner-inform{
+    position: absolute;
+    top: 157%; 
+    left: 50%;
+    transform: translateX(-70%); 
+    color: white; 
+    font-size: 55px; 
+    z-index: 2; 
+    font-weight: bold;
+    white-space: nowrap;
 }
